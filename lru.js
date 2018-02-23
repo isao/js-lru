@@ -278,4 +278,4 @@ LRUCache.prototype.toString = function() {
 };
 
 // Export ourselves
-if (typeof this === 'object') this.LRUCache = LRUCache;
+export default LRUCache;
